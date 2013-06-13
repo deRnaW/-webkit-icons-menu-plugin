@@ -5,7 +5,7 @@
 	  "css": [ "css/Menu.css" ],
       "matches": [ "file:///*", "http://*/*", "https://*/*" ]
    } ],
-   "description": "ICBC chrome extension",
+   "description": "derek-iconsMenu",
    "manifest_version": 2,
    "permissions": [ "file:///*", "http://*/*", "https://*/*" ],
    "version": "1.3"
