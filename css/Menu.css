@@ -1,0 +1,24 @@
+#derek-iconsMenu {
+	position:absolute;
+	display:none;
+	opacity: 0.7;
+	z-index: 9999;
+}
+#derek-iconsMenu ul {
+	margin:0;padding:0;list-style:none;
+}
+#derek-iconsMenu ul li a, #derek-iconsMenu ul li a:visited {
+	display:block;
+	padding:10px 20px;
+	text-decoration:none;
+	-webkit-transition:all 0.3s;
+	transition:all 0.3s;
+	color:#4e4f4f;
+	background:#edeff0;
+	text-align:center;
+	font: 26px/1 "Gotham Nights";
+}
+#derek-iconsMenu ul li a:hover {
+	color:white;
+	background:#f4bc37;
+}

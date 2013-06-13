@@ -1,0 +1,12 @@
+{
+   "name": "Icons Menu",
+   "content_scripts": [ {
+      "js": [ "js/Menu.js" ],
+	  "css": [ "css/Menu.css" ],
+      "matches": [ "file:///*", "http://*/*", "https://*/*" ]
+   } ],
+   "description": "ICBC chrome extension",
+   "manifest_version": 2,
+   "permissions": [ "file:///*", "http://*/*", "https://*/*" ],
+   "version": "1.3"
+}
