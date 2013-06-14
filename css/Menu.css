@@ -1,3 +1,11 @@
+#derek-mask {
+	position: absolute;
+	top:0px;left:0px;
+	opacity: 0.7;
+	background: black;
+	z-index: 3333;
+	display: none;
+}
 #derek-iconsMenu {
 	position:absolute;
 	display:none;
@@ -7,6 +15,7 @@
 #derek-iconsMenu ul {
 	margin:0;padding:0;list-style:none;
 }
+#derek-iconsMenu ul li {margin-bottom: 5px;}
 #derek-iconsMenu ul li a, #derek-iconsMenu ul li a:visited {
 	display:block;
 	padding:10px 20px;
